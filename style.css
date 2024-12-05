@@ -1,0 +1,341 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+/* МИНИ ХЕЙДЕР */
+nav {
+  width: 100%;
+  align-items: center;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1d2f30;
+  padding: 0 150px;
+}
+.nav {
+  text-decoration: none;
+  color: rgb(225, 225, 225);
+  font-size: 16px;
+  transition: transform 0.5s ease;
+  transition: 500ms;
+  transition-duration: 300ms;
+}
+.nav:hover {
+  transition-duration: 200ms;
+  transform: scale(1.19);
+  color: #bae249;
+}
+.logo {
+  margin: 0 0 0 67px;
+}
+ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  color: aliceblue;
+}
+
+.icona {
+  display: flex;
+  gap: 50px;
+  margin: 0 58px 0 200px;
+  height: 20px;
+}
+.icons {
+  display: flex;
+  transition: transform 0.5s ease;
+  transition: 500ms;
+  transition-duration: 700ms;
+}
+.icons:hover {
+  transition-duration: 600ms;
+  transform: scale(1.19);
+  filter: grayscale(100%) brightness(200%);
+}
+/* ГЛАВНЫЙ ХЕЙДЕР */
+.mainheader {
+  background-image: url(images/1_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 213px;
+}
+h1 {
+  font-weight: 500;
+  color: aliceblue;
+  font-size: 60px;
+  cursor: default;
+}
+.moreinfo {
+  font-size: 19px;
+  color: aliceblue;
+  cursor: default;
+}
+.research {
+  text-decoration: none;
+  color: #bae249;
+  font-size: 17px;
+  display: flex;
+  gap: 10px;
+  transition: transform 0.2s ease;
+  max-width: 130px;
+}
+.research:hover {
+  transform: scale(1.03) translateX(15px);
+}
+/* ГЛАВНАЯ ЧАСТЬ */
+.container1 {
+  background: #1d2f30;
+}
+.cards {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 600px;
+}
+.card {
+  border: 2px solid #0b1919;
+  border-radius: 5px;
+}
+.text {
+  max-width: 190px;
+  padding: 0 0 0 10px;
+  font-size: 18px;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+.backgroundimages {
+  background-color: #0b1919;
+  width: 250px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images {
+  width: 193px;
+  height: 130px;
+}
+h3 {
+  margin: 15px 0;
+}
+#h3 {
+  color: white;
+  font-weight: 500;
+}
+.button {
+  margin: 25px 10px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #99ba3e;
+  color: #bae249;
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.4s ease, background-color 0.4s ease;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: rgb(174, 174, 174);
+  color: black;
+  transform: scale(1.06);
+}
+/* МНОГО ФОТОК */
+.container2 {
+  height: 690px;
+  background: #1d2f30;
+  padding: 20px 205px;
+}
+.newart {
+  padding: 30px 0;
+  font-size: 40px;
+  color: rgb(222, 222, 222);
+}
+.mainback {
+  background: #0b1919;
+  width: 830px;
+  height: 505px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+.obshiy {
+  display: flex;
+  gap: 30px;
+}
+.greenmain {
+  background-color: #bae249;
+  height: 500px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.4;
+  border-radius: 5px;
+}
+.textgreen {
+  width: 240px;
+  color: #35421f;
+  font-size: 19px;
+  display: flex;
+  padding: 0 0 0 15px;
+}
+.nextgreen {
+  color: #000000;
+  font-weight: 800;
+  display: flex;
+  font-size: 20px;
+  text-decoration: none;
+  gap: 10px;
+  margin: 30px 36px 0 0;
+  transition: transform 0.2s ease;
+  transition: 500ms;
+  transition-duration: 700ms;
+}
+.nextgreen:hover {
+  transition-duration: 600ms;
+  transform: scale(1.03) translateX(8px);
+  filter: invert(100%) brightness(200%);
+}
+.icongreen {
+  filter: brightness(0%);
+  height: 15px;
+  width: auto;
+  margin: 8px 0 0 0;
+}
+#Kurische {
+  color: #000000;
+  margin: 20px 0 20px 0;
+  font-size: 20px;
+}
+/* РАЗМЕРЫ КАРТИНОК  */
+.moss3 {
+  width: 100px;
+  height: 115px;
+  margin: 15px 0 0 20px;
+}
+.moss6 {
+  margin: 15px 0 0 50px;
+  width: 170px;
+  height: 150px;
+}
+.Layer3 {
+  margin: 15px 0 0 50px;
+  width: 423px;
+  height: 150px;
+}
+.Layer2 {
+  margin: 20px 0 0 13px;
+  width: 296px;
+  height: 293px;
+}
+.Polypody {
+  margin: 20px 20px 0 0;
+  width: 153px;
+  height: 293px;
+}
+.Bark {
+  margin: 20px 0 0 10px;
+  width: 157px;
+  height: 293px;
+}
+.Layyer {
+  margin: 20px 0 0 50px;
+  width: 119px;
+  height: 293px;
+}
+/* ФУТЕР */
+.footer1 {
+  height: 400px;
+  width: 100%;
+  background-image: url(images/1_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 80px 0 0 205px;
+}
+input {
+  padding: 0 0 0 6px;
+  display: flex;
+  gap: 20px;
+  width: 300px;
+  height: 38px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#help,
+.help {
+  font-weight: 500;
+  color: aliceblue;
+  font-size: 40px;
+  cursor: default;
+}
+.help2 {
+  color: aliceblue;
+  font-weight: 500;
+  cursor: default;
+  font-size: 17px;
+}
+.buttons {
+  background-color: #bae249;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  transition: color 0.5s ease, transform 0.6s ease, background-color 0.6s ease;
+  border-radius: 5px;
+}
+
+.buttons:hover {
+  background-color: #ffffff;
+  transform: scale(1.03);
+}
+footer {
+  height: 60px;
+  background: #0b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.yotube {
+  width: 22px;
+  height: 18px;
+}
+.insta {
+  width: 22px;
+  height: 20px;
+}
+.twitter {
+  width: 22px;
+  height: 18px;
+}
+.facebook {
+  width: 20px;
+  height: 18px;
+}
